@@ -1,0 +1,71 @@
+{
+  "users": [
+    {      
+      "id": "4471",
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "email": "jperez@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "token": "asdasdaede",
+      "createdAt": "2024-11-13T21:09:28.166Z"
+    },
+    {
+      "id": "kjbg",
+      "firstName": "Juan", 
+      "lastName": "Perez",
+      "email":"jperez@gmail.com",
+      "createdAt": "2024-11-13T21:09:28.166Z",
+      "password":"2020",
+      "token":"6519816518", 
+      "role":"alumno"
+    },
+    {
+      "id": "2",
+      "firstName":"Jose",
+      "lastName":"Gonzales",
+      "email":"jgonzales@gmail.com",
+      "createdAt": "2024-11-13T21:09:28.166Z",
+      "password":"1234",
+      "token":"9846351", 
+      "role":"alumno"
+    },
+    {
+      "id": "4",
+      "firstName":"Fernando",
+      "lastName":"Ledesma",
+      "email":"fledesma.com",
+      "createdAt": "2024-11-13T21:09:28.166Z",
+      "password":"1234",
+      "token":"78498435", 
+      "role":"admin"
+    }    
+  ],
+  "courses":[
+    {
+      "id":"hoin",
+      "name":"carpinteria",
+      "createdAt": "2024-11-13T21:09:28.166Z",
+      "class":"20"
+     },
+    {
+      "id":"2",
+      "name":"hojaleteria",
+      "createdAt": "2024-11-13T21:09:28.166Z",
+      "class":"40"
+    },
+    {
+      "id":"juhi",
+      "name":"electricidad",
+      "createdAt": "2024-11-13T21:09:28.166Z",
+      "class":"15"
+    }
+  ],
+  "enrollments":[
+    {
+      "id":"asdad",
+      "userId":"4471",
+      "courseID":"hoin"
+    }
+  ]
+}
